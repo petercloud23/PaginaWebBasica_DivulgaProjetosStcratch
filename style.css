@@ -1,0 +1,53 @@
+header{
+    background-color: #51025a;
+    color: white;
+}
+
+body{
+    background-color: 	#836FFF;
+}
+/*Define margem e preenchimento com zero para todos os elementos*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color: #FFFACD; /*Define a cor de fundo */
+    color: #0000FF; /* Define a cor do texto como azul */
+    display: flex; /* Usa um layout flexível */
+    justify-content: space-around; /* Distribui o espaço ao redor dos elementos filhos */
+    align-items: center; /* Alinha os elementos filhos */
+    padding: 24px 0; /* Preenchimento superior e inferior como 24px e 0 nas laterais */
+}
+
+.cabecalho-imagem{
+    width: 30%; /* Define a largura como 30% do elemento pai */
+}
+
+.cabecalho-lista-item{
+    display: inline-block; /* Exibe os elementos em linha, alinha horizontalmente */
+    margin: 0 16px; /* Define margem nas laterais de 16px e nenhum preenchimento */
+    font-size: 24px; /* Define tamanho da fonte*/
+
+}
+.projeto-div{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.projeto-titulo{
+    text-align: center;
+    padding: 60px 0;
+}      
+    
+.rodape{
+    background-color: black;
+    text-align: center;
+}
+        
+.rodape-imagem{
+    width: 5%; /* Define a largura como 5% do elemento pai */
+    height: 30px;
+    padding: 12px 0;
+}
